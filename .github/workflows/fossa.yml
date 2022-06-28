@@ -1,3 +1,9 @@
+name: FOSSA analysis
+on:
+  push:
+    branches:
+    - main
+    - master
 jobs:
   fossa-scan:
     runs-on: ubuntu-latest
