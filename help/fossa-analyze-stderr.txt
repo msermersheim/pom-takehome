@@ -1,0 +1,181 @@
+[DEBUG] Loading configuration file from "/home/rolodato/source/pom-takehome/"
+[DEBUG] [TASK 1] bundler
+[DEBUG] [TASK 2] cabal
+[ INFO] [ 0 Waiting / 4 Running / 0 Completed ]
+[DEBUG] [TASK 2] cabal > Finding Projects
+[DEBUG] [TASK 1] bundler > Finding Projects
+[ INFO] [ 0 Waiting / 5 Running / 0 Completed ]
+[DEBUG] [TASK 3] cargo
+[DEBUG] [TASK 2] cabal > Finding Projects > Walking the filetree
+[DEBUG] [TASK 1] bundler > Finding Projects > Walking the filetree
+[DEBUG] [TASK 3] cargo > Finding Projects
+[ INFO] [ 0 Waiting / 7 Running / 0 Completed ]
+[DEBUG] [TASK 3] cargo > Finding Projects > Walking the filetree
+[DEBUG] [TASK 4] carthage
+[ INFO] [ 0 Waiting / 8 Running / 0 Completed ]
+[DEBUG] [TASK 4] carthage > Finding Projects
+[ INFO] [ 0 Waiting / 9 Running / 0 Completed ]
+[DEBUG] [TASK 6] composer
+[ INFO] [ 0 Waiting / 10 Running / 0 Completed ]
+[DEBUG] [TASK 4] carthage > Finding Projects > Walking the filetree
+[DEBUG] [TASK 7] conda
+[DEBUG] [TASK 8] fpm
+[DEBUG] [TASK 9] glide
+[DEBUG] [TASK 8] fpm > Finding Projects
+[DEBUG] [TASK 5] cocoapods
+[DEBUG] [TASK 6] composer > Finding Projects
+[DEBUG] [TASK 8] fpm > Finding Projects > Walking the filetree
+[DEBUG] [TASK 9] glide > Finding Projects
+[DEBUG] [TASK 5] cocoapods > Finding Projects
+[DEBUG] [TASK 5] cocoapods > Finding Projects > Walking the filetree
+[DEBUG] [TASK 9] glide > Finding Projects > Walking the filetree
+[DEBUG] [TASK 6] composer > Finding Projects > Walking the filetree
+[DEBUG] [TASK 7] conda > Finding Projects
+[ INFO] [ 1 Waiting / 11 Running / 0 Completed ]
+[ INFO] [ 1 Waiting / 15 Running / 0 Completed ]
+[ INFO] [ 5 Waiting / 16 Running / 0 Completed ]
+[ INFO] [ 10 Waiting / 16 Running / 0 Completed ]
+[ INFO] [ 13 Waiting / 16 Running / 0 Completed ]
+[DEBUG] [TASK 10] godep
+[ INFO] [ 14 Waiting / 16 Running / 0 Completed ]
+[ INFO] [ 16 Waiting / 16 Running / 0 Completed ]
+[DEBUG] [TASK 15] NodeJS
+[ INFO] [ 19 Waiting / 16 Running / 0 Completed ]
+[DEBUG] [TASK 10] godep > Finding Projects
+[DEBUG] [TASK 15] NodeJS > Finding nodejs projects
+[DEBUG] [TASK 13] leiningen
+[DEBUG] [TASK 12] maven
+[DEBUG] [TASK 7] conda > Finding Projects > Walking the filetree
+[DEBUG] [TASK 13] leiningen > Finding Projects
+[DEBUG] [TASK 16] swift
+[DEBUG] [TASK 10] godep > Finding Projects > Walking the filetree
+[DEBUG] [TASK 13] leiningen > Finding Projects > Walking the filetree
+[DEBUG] [TASK 11] gradle
+[ INFO] [ 18 Waiting / 16 Running / 1 Completed ]
+[DEBUG] [TASK 14] gomod
+[DEBUG] [TASK 16] swift > Finding Projects
+[DEBUG] [TASK 12] maven > Finding Projects
+[DEBUG] [TASK 14] gomod > Finding Projects
+[DEBUG] [TASK 11] gradle > Finding Projects
+[DEBUG] [TASK 15] NodeJS > Finding nodejs projects > Walking the filetree
+[DEBUG] [TASK 14] gomod > Finding Projects > Walking the filetree
+[DEBUG] [TASK 11] gradle > Finding Projects > Walking the filetree
+[DEBUG] [TASK 16] swift > Finding Projects > Finding swift package projects
+[DEBUG] [TASK 16] swift > Finding Projects > Finding swift package projects > Walking the filetree
+[DEBUG] [TASK 12] maven > Finding Projects > Finding pom files
+[DEBUG] [TASK 12] maven > Finding Projects > Finding pom files > Walking the filetree
+[DEBUG] [TASK 15] NodeJS > Reading package.json files
+[DEBUG] [TASK 15] NodeJS > Reading package.json files > Parsing JSON file '/home/rolodato/source/pom-takehome/package.json'
+[DEBUG] [TASK 15] NodeJS > Building global workspace graph
+[DEBUG] [TASK 15] NodeJS > Splitting global graph into chunks
+[DEBUG] [TASK 15] NodeJS > Converting graphs to analysis targets
+[ INFO] [ 18 Waiting / 16 Running / 2 Completed ]
+[ INFO] Analyzing npm project at /home/rolodato/source/pom-takehome/
+[DEBUG] [TASK 17] Project Analysis: NpmProjectType
+[DEBUG] [TASK 17] Project Analysis: NpmProjectType > Parsing JSON file '/home/rolodato/source/pom-takehome/package-lock.json'
+[DEBUG] [TASK 17] Project Analysis: NpmProjectType > Analyzing Npm Lockfile
+[DEBUG] [TASK 17] Project Analysis: NpmProjectType > Analyzing Npm Lockfile > Parsing package-lock.json
+[DEBUG] [TASK 17] Project Analysis: NpmProjectType > Analyzing Npm Lockfile > Parsing package-lock.json > Parsing JSON file '/home/rolodato/source/pom-takehome/package-lock.json'
+[DEBUG] [TASK 17] Project Analysis: NpmProjectType > Analyzing Npm Lockfile > Building dependency graph
+[ INFO] [ 17 Waiting / 16 Running / 3 Completed ]
+[DEBUG] [TASK 18] stack
+[DEBUG] [TASK 18] stack > Finding Projects
+[DEBUG] [TASK 18] stack > Finding Projects > Walking the filetree
+[ INFO] [ 16 Waiting / 16 Running / 4 Completed ]
+[DEBUG] [TASK 19] setuptools
+[DEBUG] [TASK 19] setuptools > Finding Projects
+[ INFO] [ 15 Waiting / 16 Running / 5 Completed ]
+[DEBUG] [TASK 19] setuptools > Finding Projects > Walking the filetree
+[DEBUG] [TASK 20] scala
+[DEBUG] [TASK 20] scala > Finding Projects
+[DEBUG] [TASK 20] scala > Finding Projects > Walking the filetree
+[ INFO] [ 14 Waiting / 16 Running / 6 Completed ]
+[DEBUG] [TASK 21] repomanifest
+[DEBUG] [TASK 21] repomanifest > Finding Projects
+[DEBUG] [TASK 21] repomanifest > Finding Projects > Walking the filetree
+[ INFO] [ 13 Waiting / 16 Running / 7 Completed ]
+[DEBUG] [TASK 22] rebar3
+[DEBUG] [TASK 22] rebar3 > Finding Projects
+[DEBUG] [TASK 22] rebar3 > Finding Projects > Walking the filetree
+[ INFO] [ 12 Waiting / 16 Running / 8 Completed ]
+[DEBUG] [TASK 23] rpm
+[DEBUG] [TASK 23] rpm > Finding Projects
+[DEBUG] [TASK 23] rpm > Finding Projects > Walking the filetree
+[ INFO] [ 11 Waiting / 16 Running / 9 Completed ]
+[DEBUG] [TASK 24] pub
+[DEBUG] [TASK 24] pub > Finding Projects
+[DEBUG] [TASK 24] pub > Finding Projects > Walking the filetree
+[ INFO] [ 10 Waiting / 16 Running / 10 Completed ]
+[DEBUG] [TASK 25] projectjson
+[DEBUG] [TASK 25] projectjson > Finding Projects
+[DEBUG] [TASK 25] projectjson > Finding Projects > Walking the filetree
+[ INFO] [ 9 Waiting / 16 Running / 11 Completed ]
+[DEBUG] [TASK 26] projectassetsjson
+[DEBUG] [TASK 26] projectassetsjson > Finding Projects
+[DEBUG] [TASK 26] projectassetsjson > Finding Projects > Walking the filetree
+[ INFO] [ 8 Waiting / 16 Running / 12 Completed ]
+[DEBUG] [TASK 27] poetry
+[DEBUG] [TASK 27] poetry > Finding Projects
+[DEBUG] [TASK 27] poetry > Finding Projects > Walking the filetree
+[DEBUG] [TASK 28] pipenv
+[ INFO] [ 7 Waiting / 16 Running / 13 Completed ]
+[DEBUG] [TASK 28] pipenv > Finding Projects
+[DEBUG] [TASK 28] pipenv > Finding Projects > Walking the filetree
+[ INFO] [ 6 Waiting / 16 Running / 14 Completed ]
+[DEBUG] [TASK 16] swift > Finding Projects > Finding xcode projects using swift package manager
+[DEBUG] [TASK 29] perl
+[DEBUG] [TASK 16] swift > Finding Projects > Finding xcode projects using swift package manager > Walking the filetree
+[DEBUG] [TASK 29] perl > Finding Projects
+[DEBUG] [TASK 29] perl > Finding Projects > Walking the filetree
+[DEBUG] [TASK 12] maven > Finding Projects > Building global closure
+[DEBUG] [TASK 12] maven > Finding Projects > Building project closures
+[DEBUG] [TASK 30] packet
+[ INFO] [ 5 Waiting / 16 Running / 15 Completed ]
+[DEBUG] [TASK 30] packet > Finding Projects
+[DEBUG] [TASK 30] packet > Finding Projects > Walking the filetree
+[ INFO] [ 4 Waiting / 15 Running / 17 Completed ]
+[ INFO] [ 3 Waiting / 16 Running / 17 Completed ]
+[DEBUG] [TASK 31] packagereference
+[DEBUG] [TASK 32] packagesconfig
+[DEBUG] [TASK 31] packagereference > Finding Projects
+[DEBUG] [TASK 32] packagesconfig > Finding Projects
+[DEBUG] [TASK 31] packagereference > Finding Projects > Walking the filetree
+[DEBUG] [TASK 32] packagesconfig > Finding Projects > Walking the filetree
+[ INFO] [ 2 Waiting / 16 Running / 18 Completed ]
+[DEBUG] [TASK 33] nuspec
+[DEBUG] [TASK 33] nuspec > Finding Projects
+[DEBUG] [TASK 33] nuspec > Finding Projects > Walking the filetree
+[ INFO] [ 2 Waiting / 15 Running / 19 Completed ]
+[ INFO] [ 1 Waiting / 16 Running / 19 Completed ]
+[DEBUG] [TASK 34] nimble
+[DEBUG] [TASK 34] nimble > Finding Projects
+[DEBUG] [TASK 34] nimble > Finding Projects > Walking the filetree
+[ INFO] [ 0 Waiting / 16 Running / 20 Completed ]
+[DEBUG] [TASK 35] mix
+[DEBUG] [TASK 35] mix > Finding Projects
+[DEBUG] [TASK 35] mix > Finding Projects > Walking the filetree
+[ INFO] [ 0 Waiting / 15 Running / 21 Completed ]
+[ INFO] [ 0 Waiting / 14 Running / 22 Completed ]
+[ INFO] [ 0 Waiting / 13 Running / 23 Completed ]
+[ INFO] [ 0 Waiting / 12 Running / 24 Completed ]
+[ INFO] [ 0 Waiting / 11 Running / 25 Completed ]
+[ INFO] [ 0 Waiting / 9 Running / 27 Completed ]
+[ INFO] [ 0 Waiting / 7 Running / 29 Completed ]
+[ INFO] [ 0 Waiting / 5 Running / 31 Completed ]
+[ INFO] [ 0 Waiting / 3 Running / 33 Completed ]
+[ INFO] [ 0 Waiting / 2 Running / 34 Completed ]
+[ INFO] 
+[ INFO] Scan Summary
+[ INFO] ------------
+[ INFO] fossa-cli version 3.3.6 (revision 85b2831a7c62 compiled with ghc-9.0)
+[ INFO] 
+[ INFO] 1 projects scanned;  0 skipped,  1 succeeded,  0 failed,  0 analysis warnings
+[ INFO] 
+[ INFO] * npm project in "/home/rolodato/source/pom-takehome/": succeeded
+[ INFO] -
+[ INFO] 
+[ INFO]   Some projects may not appear in the summary if they were filtered during discovery.
+[ INFO]   You can run `fossa list-targets` to see all discoverable projects.
+[ INFO] 
+[ INFO] You can also view analysis summary with warning and error messages at: "/tmp/fossa-analyze-scan-summary.txt"
+[ INFO] ------------
